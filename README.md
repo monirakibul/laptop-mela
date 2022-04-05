@@ -7,5 +7,5 @@
 
 * Used react route
 * Customer review page
-* Dashboard page
+* Dashboard page with chart
 * 404 page
