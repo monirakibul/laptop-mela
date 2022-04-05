@@ -1,9 +1,12 @@
 import React from 'react';
+import MyAreaChart from '../AreaChart/AreaChart';
+import MyChart from '../MyLineChart/MyLineChart';
 
 const Dashboard = () => {
     return (
-        <div>
-            dash
+        <div className='h-screen bg-gray-100'>
+            <MyChart></MyChart>
+            <MyAreaChart></MyAreaChart>
         </div>
     );
 };
